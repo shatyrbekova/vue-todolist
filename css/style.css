@@ -21,6 +21,7 @@
 .list-content{
     background: #f5f7f7;
     list-style: none;
+    border-radius: 24px;
 }
 
 .list-content li{
