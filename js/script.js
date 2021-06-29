@@ -7,7 +7,7 @@ new Vue({
 
       toDoList:[
           'Fare lo yoga',
-          'Chiamare ai miei',
+          'Chiamare mamma',
           'Fare la spesa'
       ],
         newTask:'',
@@ -28,6 +28,9 @@ new Vue({
         deleteTask: function (index){
             this.toDoList.splice(index, 1),
             this.autofocus();
+        },
+        keyUp: function(){
+
         }
     } 
 })

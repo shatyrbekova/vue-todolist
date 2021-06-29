@@ -24,16 +24,27 @@
 }
 
 .list-content li{
-    margin: 0 20px;
+    margin: 0 24px;
     display: flex;
     justify-content: space-between;
     height: 36px;
     align-items: center;
+    border-bottom: 1px rgb(197, 184, 184) solid;
 }
 
 .list-content li:first-child{
     margin-top: 20px;
 }
 .list-content li:last-child{
-    margin-bottom: 20px;
+    margin-bottom: 36px;
+}
+.input-area input{
+    background: url(../img/tasks.jpeg) no-repeat;
+    background-position: 0px 3px ;
+    padding-left: 25px;
+    background-size: 20px 20px;
+    border-radius: 10px;
+}
+::-webkit-input-placeholder{
+    color: black;
 }
