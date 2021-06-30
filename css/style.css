@@ -32,7 +32,12 @@
     align-items: center;
     border-bottom: 1px rgb(197, 184, 184) solid;
 }
-
+.list-content li i{
+    cursor: pointer;
+}
+.list-content li:hover{
+background: rgb(218, 198, 198);
+}
 .list-content li:first-child{
     margin-top: 20px;
 }

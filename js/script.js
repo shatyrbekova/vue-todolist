@@ -25,17 +25,14 @@ new Vue({
             this.toDoList.push(this.newTask);
             this.newTask='';
             this.autofocus();
+            // if (this.newTask == 'undefined'){
+            //  alert('Inserisca il nuovo task'); 
 
         },
         deleteTask: function (index){
             this.toDoList.splice(index, 1),
             this.autofocus();
         },
-        // keyUp: function(){
-        //     if (this.newTask == 'undefined'){
-        //         alert('Inserisca il nuovo task');      
-
-        //     }
-        // }
+        
     } 
 })
